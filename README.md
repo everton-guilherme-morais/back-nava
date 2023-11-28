@@ -25,7 +25,13 @@ Certifique-se de ter o Node.js e o npm instalados em seu sistema. Em seguida, si
     npm run start
     ```
 
-4. **Acesse a documentação da API Swagger em:**
+4. ## Dependências
+
+- [Nest.js](https://nestjs.com/): Um framework para construir aplicativos da web eficientes e escaláveis em Node.js.
+- [Faker.js](https://fakerjs.dev/): Uma biblioteca para gerar dados falsos, como nomes, endereços, e-mails e muito mais.
+
+
+5. **Acesse a documentação da API Swagger em:**
 
     ```
     http://localhost:3000/api/
@@ -33,7 +39,7 @@ Certifique-se de ter o Node.js e o npm instalados em seu sistema. Em seguida, si
 
 ## Rotas da API
 
-### `GET /fake-data`
+### `GET /peaple`
 
 Retorna dados fictícios de uma pessoa.
 
@@ -47,3 +53,7 @@ Exemplo de resposta:
     "birthdate": "01/02/1998"
   }
 }
+
+
+
+
