@@ -1,6 +1,6 @@
 # Retorno de dados fakes de uma pessoa
 
-Uma API simples para gerar dados fictícios de pessoas usando Nest.js e Faker.js.
+Uma API simples para gerar dados randômicos de pessoas usando Nest.js e Faker.js.
 
 ## Como Executar
 
