@@ -6,8 +6,10 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const options = new DocumentBuilder()
-    .setTitle('Sua API')
-    .setDescription('Descrição da sua API')
+    .setTitle('Teste NAVA')
+    .setDescription(
+      'Api para retorno de dados randômicos para o atributo pessoa ',
+    )
     .setVersion('1.0')
     .addTag('peaple')
     .build();
