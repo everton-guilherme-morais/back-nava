@@ -1,5 +1,5 @@
 export class FakePeapleDto {
-  pessoa: {
+  peaple: {
     name: string;
     age: number;
     birthdate: string;
